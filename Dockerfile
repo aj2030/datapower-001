@@ -1,4 +1,4 @@
-FROM tag 
+FROM ibmcom/datapower:latest 
 
 COPY config /opt/ibm/datapower/drouter/config 
 COPY local /opt/ibm/datapower/drouter/local 
